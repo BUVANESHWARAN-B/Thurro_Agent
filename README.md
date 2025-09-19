@@ -12,7 +12,16 @@ An API key for Llama Parse to extract text from PDFs.
 Getting Started
 Follow these steps to set up your environment and run the application.
 
-1. Create and Activate a Virtual Environment
+Getting Started
+1. Clone the Repository
+First, clone the project from GitHub using the following command:
+
+```
+git clone https://github.com/BUVANESHWARAN-B/Thurro_Agent.git
+cd Agent_Thurro
+```
+
+2.Create and Activate a Virtual Environment
 It is highly recommended to use a virtual environment to manage dependencies.
 
 For macOS and Linux:
@@ -29,7 +38,7 @@ python -m venv venv
 venv\Scripts\activate
 ```
 
-2. Configure Environment Variables
+3. Configure Environment Variables
 
 I have already given .env file 
 
@@ -39,16 +48,16 @@ Google Gemini API through the Google AI Studio
 
 LLama Parse API Key through [LlamaCloud](https://developers.llamaindex.ai/python/cloud/api_key)
 
-3. Install Dependencies
+4. Install Dependencies
 With your virtual environment activated, install all the necessary libraries from the requirements.txt file.
 
 ```
 pip install -r requirements.txt
 ```
-4. Place the Sample File
+5. Place the Sample File
 Make sure the sample earnings call transcript PDF file, Q2FY24_LaurusLabs_EarningsCallTranscript.pdf, is located in the same directory as your application's main Python script (e.g., App.py).
 
-5. Run the Application
+6. Run the Application
 Once all dependencies are installed and the environment variables are set, you can run the Streamlit application.
 
 ```
