@@ -1,0 +1,15 @@
+nest_asyncio
+streamlit
+python-dotenv
+numpy
+fuzzywuzzy
+python-Levenshtein
+llama_parse
+langchain
+langchain-google-genai
+langchain-community
+faiss-cpu
+transformers
+sentence-transformers
+torch
+google-generative-ai
